@@ -22,6 +22,12 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
+
+    public const POMPISTE_ROLE=1;
+    public const ADMIN_ROLE=4;
+    public const GERANT_ROLE=2;
+    public const CHEFPIST_ROLE=3;
+    
     public function boot()
     {
         Schema::defaultStringLength(191);
